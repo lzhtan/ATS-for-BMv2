@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2021-04-13T11:22:26.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="pRxx8ClOdxLZ5XrrbvSP" version="14.5.8" type="github">
+  <diagram id="Wb7UOJpQ9myXZYqj6oPA" name="Page-1">
+    <mxGraphModel dx="791" dy="336" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-2" target="3O9KYQWIzYPf7-cGu_mV-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-2" value="&lt;font style=&quot;font-size: 12px&quot;&gt;帧离开服务单元过滤器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="133" y="310" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-18" target="3O9KYQWIzYPf7-cGu_mV-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-18" value="将数据帧内部优先级的值设置为数据帧外部优先级" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="133" y="564" width="178" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-22" target="3O9KYQWIzYPf7-cGu_mV-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-22" value="&lt;font style=&quot;font-size: 12px&quot;&gt;获取流状态信息表中的流门控ID状态信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="133" y="361" width="180" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-30" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-27" target="3O9KYQWIzYPf7-cGu_mV-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-36" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-27" target="3O9KYQWIzYPf7-cGu_mV-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-27" value="流门控状态是否为OPEN" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="133" y="422" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-33" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-29" target="3O9KYQWIzYPf7-cGu_mV-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-40" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-29" target="3O9KYQWIzYPf7-cGu_mV-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-29" value="流门控内部优先级是否&lt;br&gt;为NULL" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="132" y="489" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-34" target="3O9KYQWIzYPf7-cGu_mV-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-34" value="丢弃数据帧" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="355" y="430.5" width="114" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-35" target="3O9KYQWIzYPf7-cGu_mV-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="368.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="568" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-35" value="未通过帧计数器加一" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="504" y="429.5" width="128" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-39" target="3O9KYQWIzYPf7-cGu_mV-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-39" value="为数据帧分配内部优先级" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="340" y="496.25" width="142" height="29.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3O9KYQWIzYPf7-cGu_mV-41" target="3O9KYQWIzYPf7-cGu_mV-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-41" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;通过帧计数器加一&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="355" y="568" width="112" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9KYQWIzYPf7-cGu_mV-43" value="将数据帧传入调度器模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="504" y="568" width="135" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" modified="2021-03-23T08:37:44.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="WAzh_RtKecPpxjr2FLeJ" version="14.4.6" type="github">
+  <diagram id="9Wb5gSGs_0gIZGtwrARn" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-2" target="HQ54gxILXXxv2Jvo6zTU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-2" value="shaped_queue中获取数据帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-3" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-6" target="HQ54gxILXXxv2Jvo6zTU-8">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="280" />
+              <mxPoint x="370" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-5" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-6" target="HQ54gxILXXxv2Jvo6zTU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-6" value="数据帧为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-8" target="HQ54gxILXXxv2Jvo6zTU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-8" value="根据端口+调度器ID获取调度器信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-9" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-11" target="HQ54gxILXXxv2Jvo6zTU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-37" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-11" target="HQ54gxILXXxv2Jvo6zTU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-11" value="合格时间大于最大&lt;br&gt;忍受时延" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-12" value="线程终止退出" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-14" target="HQ54gxILXXxv2Jvo6zTU-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-14" value="将数据帧传入output_buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-32" target="HQ54gxILXXxv2Jvo6zTU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-32" value="根据调度器信息获取调度器组信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQ54gxILXXxv2Jvo6zTU-34" target="HQ54gxILXXxv2Jvo6zTU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-34" value="根据状态变量执行ATS整形算法，计算合格时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-36" value="丢弃帧" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-41" value="ATS调度器和ATS调度器组状态更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ54gxILXXxv2Jvo6zTU-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HQ54gxILXXxv2Jvo6zTU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.5" y="340" as="sourcePoint" />
+            <mxPoint x="169.5" y="195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

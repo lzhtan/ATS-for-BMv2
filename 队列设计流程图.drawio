@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net" modified="2021-03-23T03:20:55.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="upDZyXiulfPmHKposV_t" version="14.4.6" type="github">
+  <diagram id="dBTwV_ua0LHTZ-In4vh7" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-2" target="-Qlxcwl1bK_v4P88eO4I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-2" value="Ingress_buffer中获取数据帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-4" target="-Qlxcwl1bK_v4P88eO4I-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="280" />
+              <mxPoint x="370" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Qlxcwl1bK_v4P88eO4I-10">
+          <mxGeometry x="-0.1791" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-4" target="-Qlxcwl1bK_v4P88eO4I-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-4" value="数据帧为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-6" target="-Qlxcwl1bK_v4P88eO4I-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-6" value="获取数据帧相关环境变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-9" target="-Qlxcwl1bK_v4P88eO4I-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Qlxcwl1bK_v4P88eO4I-17">
+          <mxGeometry x="0.1316" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-9" value="解析数据帧头部成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-13" value="线程终止退出" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-16" target="-Qlxcwl1bK_v4P88eO4I-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-16" value="执行Ingress流水线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-20" target="-Qlxcwl1bK_v4P88eO4I-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Qlxcwl1bK_v4P88eO4I-22">
+          <mxGeometry x="0.2407" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4.88" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-20" target="-Qlxcwl1bK_v4P88eO4I-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-20" value="是否执行包复制" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-21" value="将复制的数据帧传入egress_buffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-25" target="-Qlxcwl1bK_v4P88eO4I-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-37" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-25" target="-Qlxcwl1bK_v4P88eO4I-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-25" value="是否执行包重传" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="640" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-26" target="-Qlxcwl1bK_v4P88eO4I-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-26" value="将数据帧传入ingress_buffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-35" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" target="-Qlxcwl1bK_v4P88eO4I-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="620" as="sourcePoint" />
+            <mxPoint x="550" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-36" target="-Qlxcwl1bK_v4P88eO4I-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-43" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Qlxcwl1bK_v4P88eO4I-40">
+          <mxGeometry x="-0.6412" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-44" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-36" target="-Qlxcwl1bK_v4P88eO4I-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="765" />
+              <mxPoint x="470" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-36" value="是否执行组播" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="730" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-46" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-38" target="-Qlxcwl1bK_v4P88eO4I-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-38" target="-Qlxcwl1bK_v4P88eO4I-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-38" value="出口是否为丢弃出口" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="730" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-Qlxcwl1bK_v4P88eO4I-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-39" value="执行组播，将数据帧复制进入不同的egress_buffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-45" value="丢弃数据帧" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Qlxcwl1bK_v4P88eO4I-47" value="将数据帧传入egress_buffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

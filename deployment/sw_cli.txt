@@ -1,0 +1,23 @@
+table_set_default ipv4_da_lpm ingressImpl.my_drop
+table_set_default mac_da ingressImpl.my_drop
+table_set_default send_frame egressImpl.my_drop
+
+// Add routing support from client to server.
+table_add ipv4_da_lpm set_l2ptr 10.3.0.5/32 => 1
+table_add mac_da set_bd_dmac_intf 1 => 1 00:30:64:42:40:aa 2
+table_add send_frame rewrite_mac 1 => 00:30:64:42:40:ba
+
+// Add routing support from server to client1. 
+table_add ipv4_da_lpm set_l2ptr 10.1.0.5/32 => 2
+table_add mac_da set_bd_dmac_intf 2 => 2 00:30:64:11:31:5d 0
+table_add send_frame rewrite_mac 2 => 00:30:64:42:40:bd
+
+// Add routing support from server to client2.
+table_add ipv4_da_lpm set_l2ptr 10.2.0.5/32 => 3
+table_add mac_da set_bd_dmac_intf 3 => 3 00:30:64:11:31:5c 1
+table_add send_frame rewrite_mac 3 => 00:30:64:42:40:bc
+
+// Assign scheduler by src mac address according to IEEE802.1Qcr.
+table_add mac_to_scheduler set_scheduler 00:30:64:42:40:aa => 0
+table_add mac_to_scheduler set_scheduler 00:30:64:11:31:5d => 0
+table_add mac_to_scheduler set_scheduler 00:30:64:11:31:5c => 1

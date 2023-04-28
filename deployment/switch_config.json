@@ -1,0 +1,56 @@
+{
+	"port":[
+                {
+                        "id": 0,
+                        "scheduler_group":[{
+                                "id": 0,
+                                "priority": 0,
+                                "maximum_residence_time": 20000,
+                                "scheduler":[{
+                                        "id": 0,
+                                        "committed_burstsize": 1000000,
+                                        "committed_rate": 1000,
+                                        "capacity":1024
+                                }]
+                        }]
+                },
+                {
+                        "id": 1,
+                        "scheduler_group":[{
+                                "id": 0,
+                                "priority": 0,
+                                "maximum_residence_time": 20000,
+                                "scheduler":[{
+                                        "id": 0,
+                                        "committed_burstsize": 1000000,
+                                        "committed_rate": 1000,
+                                        "capacity":1024
+                                }]
+                        }]
+                },
+                {
+                        "id": 2,
+                        "scheduler_group":[{
+                                "id": 0,
+                                "priority": 0,
+                                "maximum_residence_time": 20000,
+                                "scheduler":[{
+                                        "id": 0,
+                                        "committed_burstsize": 1000000,
+                                        "committed_rate": 1000,
+                                        "capacity":1024
+                                }]
+                        },{
+                                "id": 1,
+                                "priority": 1,
+                                "maximum_residence_time": 20000,
+                                "scheduler":[{
+                                        "id": 1,
+                                        "committed_burstsize": 1000000,
+                                        "committed_rate": 1000,
+                                        "capacity":1024
+                                }]
+                        }]
+                }
+        ]
+}
