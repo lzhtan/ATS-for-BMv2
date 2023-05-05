@@ -1,6 +1,6 @@
 # BMv2_ATS
 
-[![Build Status](https://travis-ci.org/p4lang/behavioral-model.svg?branch=master)](https://travis-ci.org/p4lang/behavioral-model)
+[![Archtecture](arch.png)]
 
 This is the second version of the reference P4 software switch, nicknamed bmv2
 (for behavioral model version 2). The software switch is written in C++11. It
