@@ -2,14 +2,12 @@
 
 ![Archtecture](arch.png)
 
-This is the second version of the reference P4 software switch, nicknamed bmv2
-(for behavioral model version 2). The software switch is written in C++11. It
-takes as input a JSON file generated from your P4 program by a [P4
-compiler](https://github.com/p4lang/p4c) and interprets it to implement the
-packet-processing behavior specified by that P4 program.
+This is a deterministic network-oriented virtual switch based on the second version of the reference P4 software switch (bmv2), which we call ATS-for-BMv2.
+
+The software switch is written in C++11. takes as input a JSON file generated from your shaping program by a [P4 compiler](https://github.com/p4lang/p4c) and interprets it to implement the packet-processing behavior specified by the shaping program. Except for the shaping part, the others are basically consistent with the BMv2 basic model.
 
 This repository contains code for several variations of the behavioral
-model, e.g. `simple_switch`, `simple_switch_grpc`, `psa_switch`, etc.
+model, e.g. `simple_switch`, `simple_switch_grpc`, etc.
 See [here](targets/README.md) for more details on the differences
 between these.
 
@@ -272,19 +270,16 @@ directory. You can also browse this documentation
 
 ### Are all features supported yet?
 
-At this time, we are aware of the following unsupported P4_14 features:
-- direct registers
-
 If you find more missing features or if you would like to request that a
-specific feature be added, please send us an email (p4-dev@lists.p4.org) or
+specific feature be added, please send us an email (john_tan@tom.com) or
 submit an issue with the appropriate label on
-[Github](https://github.com/p4lang/behavioral-model/issues). Do not hesitate to
+[Github](https://github.com/lzhtan/ATS-for-BMv2/issues). Do not hesitate to
 contribute code yourself!
 
 ### How do I signal a bug?
 
 Please submit an issue with the appropriate label on
-[Github](https://github.com/p4lang/behavioral-model/issues).
+[Github](https://github.com/lzhtan/ATS-for-BMv2/issues).
 
 ### How can I contribute?
 
