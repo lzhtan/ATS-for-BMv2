@@ -1,6 +1,6 @@
 # BMv2_ATS
 
-[![Archtecture](arch.png)]
+![Archtecture](arch.png)
 
 This is the second version of the reference P4 software switch, nicknamed bmv2
 (for behavioral model version 2). The software switch is written in C++11. It
